@@ -68,7 +68,13 @@ nav {
 }
 
 .menue li a {
+<<<<<<< HEAD
   text-decoration: none;
+=======
+    text-decoration: none;
+        color: #3C354F;
+
+>>>>>>> 990d02b9153aa58db03e5df6da66db5c53958b25
 }
 
 .nav-btn {
