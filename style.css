@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
 
+/* ======================== */
 /* Global Styles */
+/* ======================== */
 
 * {
     font-family: 'Work Sans', sans-serif;
@@ -9,7 +11,9 @@
     max-width: 1920px;
 }
 
+/* ======================== */
 /* Navigation Bar styles */
+/* ======================== */
 header {
     max-width: 80%;
     height: 80px;
@@ -88,7 +92,9 @@ nav {
     margin-left: 16px;
 }
 
+/* ======================== */
 /* Hero section styles */
+/* ======================== */
 .hero {
     background-image: url('./images/Group\ 14.png');
     background-position: left;
@@ -106,7 +112,9 @@ nav {
 
 }
 
-/* content */
+/* ======================== */
+/* hero section content */
+/* ======================== */
 
 .left-container h3 {
     color: #0B0223;
@@ -166,7 +174,9 @@ nav {
     text-transform: uppercase;
 }
 
+/* ======================== */
 /* We are gamer section */
+/* ======================== */
 .wag {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
@@ -221,7 +231,9 @@ nav {
     line-height: 45px;
 }
 
+/* ======================== */
 /* Funny Videos Section */
+/* ======================== */
 
 .content-fv {
     margin-top: 100px;
@@ -265,7 +277,9 @@ nav {
     margin-bottom: 5px;
 }
 
+/* ======================== */
 /* Play Instantly section */
+/* ======================== */
 .play-instant-container {
     display: flex;
     justify-content: space-between;
@@ -302,68 +316,158 @@ nav {
     bottom: 300px;
     right: 150px;
 }
+
+/* ======================== */
 /* careers section styles */
-.careers{
+/* ======================== */
+.careers {
     margin-top: -100px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
-.careers-container{
+.careers-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 0 auto;
 }
-.careers-left{
+
+.careers-left {
     width: 35%;
     margin: 0px auto;
 }
-.careers-left h3{
+
+.careers-left h3 {
     color: #FFF;
-font-size: 3rem;
-font-style: normal;
-font-weight: 700;
-line-height: 60px; /* 125% */
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
 }
-.careers-left p{
+
+.careers-left p {
     color: #FFF;
-font-size: 1.125rem;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
-.list{
+
+.list {
     display: flex;
 }
-.list li{
+
+.list li {
     color: #FFF;
-font-size: 20px;
-font-weight: 600;
-line-height: 40px; /* 200% */
-list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    /* 200% */
+    list-style: none;
 }
-.ulright{
+
+.ulright {
     text-align: right;
 }
+/* ======================== */
+/* Icon Section Design */
+/* ======================== */
+.grid-icon{
+    width: 80%;
+    margin: 0 auto;
+}
+.grid-container{
+    display: flex;
+}
+.img-container{
 
+}
+.grid-img{
 
+}
+.img-container h4{
+    
+}
+/* ======================== */
 /* Footer Section Design */
-footer{
+/* ======================== */
+
+footer {
     background-color: #0B0223;
     width: 100%;
-    height: 636px;
-}
-.menue2 li{
-    color: #FFF;
-font-size: 18px;
-font-weight: 600;
-}
-.foot-nav-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+    padding: 85px 0;
+}
+
+.amer {
+    color: #FFF;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.foot-nav-container ul {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+    gap: 30px;
+}
+
+.foot-nav-container ul li {
+    list-style: none;
+}
+
+.foot-nav-container ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-bottom {
+
+}
+
+.footer-icons {
+    display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
 }
 
+.footer-important-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-important-links ul li {
+    list-style: none;
+}
+
+.footer-important-links ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.9rem;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+/* Footer Styles End */
 
 
 
@@ -379,8 +483,10 @@ font-weight: 600;
 
 
 
-
-
+/* ============================== */
+/* Media Query                    */
+/* Mobile Responsive              */
+/* ============================== */
 
 
 
@@ -454,7 +560,6 @@ font-weight: 600;
     .sign {
         border: none;
         border-radius: 48px;
-        padding: 20px 40px;
         background-color: #F948B2;
         color: #FFF;
         font-size: 1.25rem;
@@ -463,6 +568,16 @@ font-weight: 600;
         margin-bottom: 24px;
         text-align: center;
 
+    }
+    .rougeg {
+        background: #4EC5F7;
+        border: none;
+        text-align: center;
+        border-radius: 48px;
+        color: #FFF;
+        font-size: 1.25rem;
+        font-weight: 600;
+        text-transform: uppercase;
     }
 
     .right-container-wag {
@@ -544,38 +659,45 @@ font-weight: 600;
         right: 50px;
         bottom: 125px;
     }
-    .careers{
+
+    .careers {
         margin-top: -100px;
         background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     }
-    
-    .careers-container{
+
+    .careers-container {
         flex-direction: column;
     }
-    
-    .careers-left h3{
+
+    .careers-left h3 {
         color: #FFF;
         text-align: left;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; /* 125% */
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        /* 125% */
     }
-    .careers-left p{
+
+    .careers-left p {
         color: #FFF;
         text-align: left;
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 30px; /* 166.667% */
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 30px;
+        /* 166.667% */
     }
-    .list li{
+
+    .list li {
         color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 40px; /* 200% */
-    list-style: none;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 40px;
+        /* 200% */
+        list-style: none;
     }
-    .ulright{
+
+    .ulright {
         text-align: right;
     }
 
